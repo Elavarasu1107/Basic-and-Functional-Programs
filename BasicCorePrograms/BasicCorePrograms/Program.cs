@@ -53,9 +53,16 @@ namespace BasicCorePrograms
                         getMethod.Division();
                         break;
                     }
+                case 7:
+                    {
+                        Console.WriteLine("Swaping Two Numbers");
+                        SwappingNumbers getMethod = new SwappingNumbers();
+                        getMethod.SwapTwoNumbers();
+                        break;
+                    }
                 default:
                     {
-                        Console.WriteLine("Enter a Number between(1-6)");
+                        Console.WriteLine("Enter a Number between(1-7)");
                         break;
                     }
             }
