@@ -67,9 +67,16 @@ namespace BasicCorePrograms
                         getMethod.Numbers();
                         break;
                     }
-               default:
+                case 9:
                     {
-                        Console.WriteLine("Enter a Number between(1-8)");
+                        Console.WriteLine("Vowel And Consonant");
+                        VowelsOrConsonant getMethod = new VowelsOrConsonant();
+                        getMethod.Alphabet();
+                        break;
+                    }
+                default:
+                    {
+                        Console.WriteLine("Enter a Number between(1-9)");
                         break;
                     }
             }
