@@ -39,9 +39,16 @@ namespace BasicCorePrograms
                         getClass.Harmonic();
                         break;
                     }
+                case 5:
+                    {
+                        Console.WriteLine("Prime Factorization");
+                        PrimeFactor getClass = new PrimeFactor();
+                        getClass.Prime();
+                        break;
+                    }
                 default:
                     {
-                        Console.WriteLine("Enter a Number between(1-4");
+                        Console.WriteLine("Enter a Number between(1-5)");
                         break;
                     }
             }
