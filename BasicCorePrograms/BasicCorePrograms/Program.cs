@@ -13,6 +13,7 @@ namespace BasicCorePrograms
             {
                 case 1:
                     {
+                        Console.WriteLine("CoinFlip");
                         CoinFlip getClass = new CoinFlip();
                         getClass.Toss();
                         break;
@@ -24,9 +25,16 @@ namespace BasicCorePrograms
                         getClass.Year();
                         break;
                     }
+                case 3:
+                    {
+                        Console.WriteLine("Power Of 2");
+                        PowerOf2 getClass=new PowerOf2();
+                        getClass.PowerTable();
+                        break;
+                    }
                 default:
                     {
-                        Console.WriteLine("Enter a Number between(1-2");
+                        Console.WriteLine("Enter a Number between(1-3");
                         break;
                     }
             }
