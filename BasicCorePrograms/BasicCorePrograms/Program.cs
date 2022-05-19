@@ -60,9 +60,16 @@ namespace BasicCorePrograms
                         getMethod.SwapTwoNumbers();
                         break;
                     }
-                default:
+                case 8:
                     {
-                        Console.WriteLine("Enter a Number between(1-7)");
+                        Console.WriteLine("Even Or Odd");
+                        EvenOrOdd getMethod = new EvenOrOdd();
+                        getMethod.Numbers();
+                        break;
+                    }
+               default:
+                    {
+                        Console.WriteLine("Enter a Number between(1-8)");
                         break;
                     }
             }
