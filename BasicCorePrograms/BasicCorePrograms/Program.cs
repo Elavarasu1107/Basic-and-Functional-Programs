@@ -14,41 +14,48 @@ namespace BasicCorePrograms
                 case 1:
                     {
                         Console.WriteLine("CoinFlip");
-                        CoinFlip getClass = new CoinFlip();
-                        getClass.Toss();
+                        CoinFlip getMethod = new CoinFlip();
+                        getMethod.Toss();
                         break;
                     }
                 case 2:
                     {
                         Console.WriteLine("LeapYear");
-                        LeapYear getClass = new LeapYear();
-                        getClass.Year();
+                        LeapYear getMethod = new LeapYear();
+                        getMethod.Year();
                         break;
                     }
                 case 3:
                     {
                         Console.WriteLine("Power Of 2");
-                        PowerOf2 getClass = new PowerOf2();
-                        getClass.PowerTable();
+                        PowerOf2 getMethod = new PowerOf2();
+                        getMethod.PowerTable();
                         break;
                     }
                 case 4:
                     {
                         Console.WriteLine("Harmonic Number");
-                        HarmonicNumber getClass = new HarmonicNumber();
-                        getClass.Harmonic();
+                        HarmonicNumber getMethod = new HarmonicNumber();
+                        getMethod.Harmonic();
                         break;
                     }
                 case 5:
                     {
                         Console.WriteLine("Prime Factorization");
-                        PrimeFactor getClass = new PrimeFactor();
-                        getClass.Prime();
+                        PrimeFactor getMethod = new PrimeFactor();
+                        getMethod.Prime();
+                        break;
+                    }
+                case 6:
+                    {
+                        Console.WriteLine("Quotient And Remainder");
+                        QuotientAndRemainder getMethod = new QuotientAndRemainder();
+                        getMethod.Division();
                         break;
                     }
                 default:
                     {
-                        Console.WriteLine("Enter a Number between(1-5)");
+                        Console.WriteLine("Enter a Number between(1-6)");
                         break;
                     }
             }
