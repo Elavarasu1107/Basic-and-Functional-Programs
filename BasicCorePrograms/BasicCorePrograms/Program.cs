@@ -74,9 +74,16 @@ namespace BasicCorePrograms
                         getMethod.Alphabet();
                         break;
                     }
+                case 10:
+                    {
+                        Console.WriteLine("LargestNumber");
+                        LargestNumber getMethod = new LargestNumber();
+                        getMethod.LargestOf3();
+                        break;
+                    }
                 default:
                     {
-                        Console.WriteLine("Enter a Number between(1-9)");
+                        Console.WriteLine("Enter a Number between(1-10)");
                         break;
                     }
             }
