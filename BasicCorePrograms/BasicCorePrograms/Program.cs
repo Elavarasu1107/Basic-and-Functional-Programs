@@ -21,20 +21,27 @@ namespace BasicCorePrograms
                 case 2:
                     {
                         Console.WriteLine("LeapYear");
-                        LeapYear getClass=new LeapYear();
+                        LeapYear getClass = new LeapYear();
                         getClass.Year();
                         break;
                     }
                 case 3:
                     {
                         Console.WriteLine("Power Of 2");
-                        PowerOf2 getClass=new PowerOf2();
+                        PowerOf2 getClass = new PowerOf2();
                         getClass.PowerTable();
+                        break;
+                    }
+                case 4:
+                    {
+                        Console.WriteLine("Harmonic Number");
+                        HarmonicNumber getClass = new HarmonicNumber();
+                        getClass.Harmonic();
                         break;
                     }
                 default:
                     {
-                        Console.WriteLine("Enter a Number between(1-3");
+                        Console.WriteLine("Enter a Number between(1-4");
                         break;
                     }
             }
